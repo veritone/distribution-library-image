@@ -2,11 +2,6 @@
 
 set -e
 
-if [ $# -eq 0 ] ; then
-	echo "Usage: ./update.sh <docker/distribution tag or branch>"
-	exit
-fi
-
 VERSION=master
 
 # cd to the current directory so the script can be run from anywhere.
